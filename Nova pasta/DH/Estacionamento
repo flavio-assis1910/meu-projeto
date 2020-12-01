@@ -1,0 +1,45 @@
+// Esse array é utilizado dentro das funções. Cada placa neste array representa
+// uma entrada do respectivo veículo no estacionamento. Não é necessário alterar
+// esse array.
+var placas = [
+    'RXB-2525', 'AKX-3333', 'ORO-7142','RXB-2525', 'AKX-3333', 'ORO-7142',
+    'AKX-3333', 'RXB-2525', 'AKX-3333','AKX-3333', 'RXB-2525', 'AKX-3333',   'RXB-2525', 'AKX-3333', 'ORO-7142','AKX-3333', 'AKX-3333', 'RXB-2525',
+    'AKX-3333', 'ORO-7142', 'ORO-7142','AKX-3333', 'AKX-3333', 'RXB-2525',
+    'AKX-3333', 'AKX-3333', 'RXB-2525','AKX-3333', 'AKX-3333', 'RXB-2525',
+    'AKX-3333', 'ORO-7142', 'ORO-7142','AKX-3333', 'ORO-7142', 'ORO-7142',
+    'ORO-7142', 'RXB-2525', 'AKX-3333','AKX-3333', 'ORO-7142', 'ORO-7142',
+    'AKX-3333', 'RXB-2525', 'AKX-3333','AKX-3333', 'RXB-2525', 'AKX-3333',
+    'RXB-2525', 'AKX-3333', 'ORO-7142','AKX-3333', 'AKX-3333', 'RXB-2525',
+    'AKX-3333', 'ORO-7142', 'ORO-7142','AKX-3333', 'AKX-3333', 'RXB-2525',
+    'AKX-3333', 'AKX-3333', 'RXB-2525','AKX-3333', 'AKX-3333', 'RXB-2525'
+ ]
+ 
+ function calcularNumeroDeEntradas(placa){
+ 
+ return valorDevido
+  var numeroEntradas
+ 
+  for(var i=0;i<calcularNumeroDeEntradas.length;i++)
+  {
+    if(placas[i] = placas[i])
+    {
+       numeroEntradas ++
+    }
+  }
+    // Seu código vem aqui...
+ }
+  
+ function calcularValorDevido(placa){
+    // Seu código vem aqui...
+    var valorDevido
+    if (numeroEntradas <= 20)
+    {
+       valorDevido = numeroEntradas * 10
+    }
+    else
+    {
+       valorDevido = ((numeroEntradas * 10)+(numeroEntradas - 20)*5)
+    }
+ }
+
+ 
