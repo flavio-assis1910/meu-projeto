@@ -1,19 +1,3 @@
-/*const somar = (numeroA, numeroB) => numeroA + numeroB;
-
-const calculadora = (numeroA, numeroB, operacao) => operacao(numeroA, numeroB)
-
-console.log(calculadora(10, 20, somar))*/
-
-
-/*const dobro = (numero) => numero * 2
-
-const triplo = (numero) => numero * 3
-
-const aplicar = (numero, funcao) => funcao(numero)
-
-console.log(aplicar(5, dobro))
-console.log(aplicar(5, triplo))*/
-
 /*function dobro(numero) {
     return numero * 2
 }
