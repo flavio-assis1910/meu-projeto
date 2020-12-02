@@ -41,21 +41,45 @@ console.log(calculadora(10,20,dividir))*/
 String "http://" no começo da URL e em seguida retornará esse valor. A segunda função se chamará processar  e receberá uma
 lista de sites web e uma função. A função processar  retornará um array contendo todos os resultados aplicando a função que foi passada.*/
 
-function adicionarHttp(url) {
+/*function adicionarHttp(url) {
     return "http://" + url
 
 }
 
 function processar(url, funcao) {
-
-
-    var url = ["www.google.com", "www.yahoo.com"]
-    var url2 = url.map(function (num) {
-        return num
-    })
-
-    
-
-
+    return funcao(url)
 }
-console.log(processar())
+
+const sites = ["www.facebook.com", "www.google.com"]
+console.log(processar(sites,adicionarHttp))*/
+
+
+
+/*function soma (num1, num2){
+    return num1+num2
+}
+
+function multiplicar (num1, num2){
+    return num1*num2
+}
+
+function resultado (num1, num2, funcao){
+    return funcao(num1, num2)
+}
+
+console.log(resultado(5,10,soma))
+console.log(resultado(5,10,multiplicar))*/
+
+/*function nomeCompleto (nome, sobrenome){
+    return nome + " " + sobrenome
+}
+
+function saudar (nome, sobrenome, funcao){
+    return "Olá"+" "+funcao(nome, sobrenome)
+}
+
+
+console.log(saudar("Flávio", "Assis",nomeCompleto))*/
+
+
+
